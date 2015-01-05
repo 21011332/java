@@ -18,10 +18,10 @@ import java.util.Random;
  			int count = 0;
              for (int i=0; i<str1Ary.length; i++) {  
 				idatas[i]=Integer.valueOf(str1Ary[i]).intValue();  
-             	count = count + idatas[i];
+             	a = a + idatas[i];
    
 			}
-			System.out.println("count" + count);
+			System.out.println("count" + a);
 			
 			
 			br.close();  
